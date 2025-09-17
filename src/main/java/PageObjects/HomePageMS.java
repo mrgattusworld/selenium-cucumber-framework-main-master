@@ -11,7 +11,7 @@ public class HomePageMS {
     public HomePageMS(WebDriver webDriver) {
         PageFactory.initElements(new AjaxElementLocatorFactory(webDriver, 15), this);
     }
-// testinggggg
+// testingg
     @FindBy(xpath = "//a[text()='About']")
     private WebElement aboutLink;
 
